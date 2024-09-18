@@ -1,0 +1,130 @@
+body {
+    font-family: "Itim", cursive;
+}
+
+.container {
+    display: flex; /* ใช้ Flexbox */
+    justify-content: center; /* จัดกลางแนวนอน */
+    /*align-items: center;*/ /* จัดกลางแนวตั้ง */
+    height: 100vh; /* ความสูง 100% ของ viewport */
+}
+
+.background {
+    background-color: #6b6b6b; /* สีพื้นหลังของกล่อง */
+    padding: 20px; /* ช่องว่างภายในกล่อง (ปรับขนาดเพื่อลดขนาด padding) */
+    width: 990px; /* ความกว้างของกล่อง */
+    height: 500px; /* ความสูงของกล่อง */
+    border-radius: 15px; /* ความมนของมุมกล่อง */
+    transition: all 0.5s; /* การเปลี่ยนแปลงที่เรียบเนียนภายใน 0.5 วินาที */
+    /*display: flex;*/ /* ใช้ Flexbox */
+    /*align-items: flex-start;*/ /* จัดกล่องแนวตั้งที่ด้านบนสุด */
+    /*justify-content: flex-start;*/ /* จัดกล่องแนวนอนที่ด้านซ้ายสุด */
+    /*overflow: auto;*/ /* จัดการการล้นของเนื้อหา (ถ้ามี) */
+    
+}
+
+.text-container {
+    display: flex; /* ใช้ Flexbox */
+    justify-content: space-between; /* จัดให้ทั้งสองฝั่ง */
+    align-items: center; /* จัดกลางแนวตั้ง */
+    margin-bottom: 10px; /* ระยะห่างด้านล่าง */
+}
+
+.text-1 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.text-2 {
+    color: rgb(255, 253, 253);
+    font-size: 20px;
+    background-color: #6acc7c;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    right: 30px;
+    margin-bottom: 30px;
+}
+
+.text-3 {
+    display: block;
+    color: rgb(255, 253, 253);
+    font-size: 20px;
+    background-color: #86a7d7;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    left: px;
+}
+
+.QrCode{
+    display: block;
+    position: absolute;
+    left: 225px;
+  }
+  
+  .QrCode img{
+    width: 150px; /* กำหนดขนาดของรูปภาพให้เป็นสี่เหลี่ยมจัตุรัส */
+    border-radius: 0%; /* ทำให้มุมของรูปภาพกลมทั้งหมด */
+    object-fit: cover; /* ครอบตัดรูปภาพเพื่อให้พอดีกับกรอบ */
+    margin-left: 0; /* ยกเลิกระยะทางด้านซ้าย (ถ้ามี) */
+  }
+
+  .text-4 {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    position: absolute;
+    left: 258px;
+}
+
+  .text-5 {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    position: absolute;
+    left: 250px;
+    margin-top: 5px;
+}
+
+  .BarCode{
+    display: block;
+    position: absolute;
+    left: 200px;
+
+  }
+  
+  .BarCode img{
+    width: 200px; /* กำหนดขนาดของรูปภาพให้เป็นสี่เหลี่ยมจัตุรัส */
+    border-radius: 0%; /* ทำให้มุมของรูปภาพกลมทั้งหมด */
+    object-fit: cover; /* ครอบตัดรูปภาพเพื่อให้พอดีกับกรอบ */
+    margin-left: 0; /* ยกเลิกระยะทางด้านซ้าย (ถ้ามี) */
+  }
+
+  .text-6 {
+    display: block;
+    font-size: 15px;
+    position: absolute;
+    right: 30px;
+}
+
+  .text-7 {
+    display: block;
+    font-size: 15px;
+    position: absolute;
+    right: 30px;
+    margin-top: 50px;
+}
+  
+.modal-content .ant-modal-content {
+  width: 280px; /* ปรับขนาดความกว้างตามที่ต้องการ */
+}
+
+.modal-content .ant-modal-body {
+  padding: 0px; /* ปรับขนาดพื้นที่ภายในของ Modal */
+}
+.modal-text {
+  margin-top: 0px; /* เพิ่มระยะห่างจากเนื้อหาข้างบน */
+  text-align: 0;
+}
+

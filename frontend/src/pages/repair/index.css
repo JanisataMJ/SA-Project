@@ -1,0 +1,90 @@
+.container {
+    display: flex; /* ใช้ Flexbox */
+    justify-content: center; /* จัดกลางแนวนอน */
+    /*align-items: center;*/ /* จัดกลางแนวตั้ง */
+    height: auto; /* ความสูง 100% ของ viewport */
+}
+
+.background {
+    box-shadow: 0px 0px 5px;
+    padding: 10px; /* ช่องว่างภายในกล่อง (ปรับขนาดเพื่อลดขนาด padding) */
+    width: 90%; /* ความกว้างของกล่อง */
+    height: auto; /* ความสูงของกล่อง */
+    border-radius: 15px; /* ความมนของมุมกล่อง */
+    transition: all 0.5s; /* การเปลี่ยนแปลงที่เรียบเนียนภายใน 0.5 วินาที */
+    border: 1px solid #d9d9d9;
+}
+
+.title-1-flex {
+    display: flex;
+    /* ใช้ Flexbox */
+    justify-content: space-between;
+    /* จัดให้ทั้งสองฝั่ง */
+    align-items: center;
+    /* จัดกลางแนวตั้ง */
+}
+
+.title-2-flex {
+    display: flex;
+    /* ใช้ Flexbox */
+    gap: 16px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-flex {
+    display: flex;
+}
+
+.text-1 {
+    color: rgb(48, 48, 48);
+    font-size: 30px;
+}
+
+.status-text {
+    color: rgb(48, 48, 48);
+    font-size: 20px;
+    position: absolute;
+    right: 240px;
+    display: flex;
+    justify-content: flex-end;
+    /* จัดข้อความให้กลางแนวนอน */
+    align-items: flex-end;
+    /* จัดข้อความให้กลางแนวตั้ง */
+}
+
+.status-textbox {
+    color: rgb(48, 48, 48);
+    font-size: 20px;
+    width: 140px;
+    background-color: #bfbfbf;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    right: 55px;
+    display: flex;
+    justify-content: center;
+    /* จัดข้อความให้กลางแนวนอน */
+    align-items: center;
+    /* จัดข้อความให้กลางแนวตั้ง */
+}
+
+
+.name-text {
+    color: rgb(48, 48, 48);
+    font-size: 14px;
+    
+}
+
+
+/* ResigningForm index.css */
+.ant-form-item-label {
+    text-align: left; /* จัดให้ตรงกับด้านซ้าย */
+  }
+  
+  .ant-form-item-label > label {
+    display: inline-block;
+    width: 200px; /* ปรับความกว้างให้ตรงกัน */
+    text-align: left; /* จัดให้ตัวอักษรตรงกับซ้าย */
+  }
+  

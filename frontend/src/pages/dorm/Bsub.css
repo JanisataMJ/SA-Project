@@ -1,0 +1,69 @@
+.text-sub {
+    padding: 15px; 
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.box {
+    background-color: #e6e6e6;
+    padding: 15px; 
+    border-radius: 10px;
+    font-size: 20px !important;
+    color: #222222;
+    font-weight: bold;
+}
+
+.row-container {
+    display: flex;
+    justify-content: space-between; /* จัดให้คอลัมน์อยู่ที่ขอบซ้ายและขวา */
+}
+  
+.heading-red {
+    color: #ff0000;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/***********ปุ่มยืนยัน/ยกเลิก*****************/
+/* index.css */
+.flex-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 8px; /* ปรับขนาดช่องว่างระหว่างปุ่มตามต้องการ */
+    height: 10vh; /* ทำให้คอนเทนเนอร์มีความสูงเต็มของ viewport */
+    padding: 16px;
+  }
+  
+  
+  .custom-button {
+    font-size: 16px;           /* ขยายขนาดของตัวอักษร */
+    padding: 12px 24px;        /* ขยายขนาดของปุ่ม */
+  }
+  
+  /* เปลี่ยนสีของปุ่ม dashed */
+  .dashed-button {
+    background-color: #f1f1f1; /* เปลี่ยนสีพื้นหลังของปุ่ม dashed */
+    border-color: #9a9a9a;     /* เปลี่ยนสีของเส้นขอบปุ่ม dashed */
+    color: #9a9a9a;
+  }
+  
+  /* เปลี่ยนสีของปุ่ม primary */
+  .primary-button {
+    background-color: #001a9e; /* เปลี่ยนสีพื้นหลังของปุ่ม primary */
+    color: #ffffff;            /* เปลี่ยนสีของตัวอักษร */
+  }
+  
+  /* เปลี่ยนสีเมื่อปุ่มถูก hover */
+  .dashed-button:hover {
+    background-color: #f1f1f1 !important;
+    border-color: #9a9a9a !important;
+    color: #000 !important;
+  }
+  
+  .primary-button:hover {
+    background-color: #1338f5 !important;
+  }
+  

@@ -1,0 +1,13 @@
+.payment-confirmation {
+    padding: 24px;
+    background: #fff;
+    min-height: 100vh;
+  }
+
+  .ant-table {
+    margin-bottom: 16px;
+  }
+
+  .ant-table .ant-table-tbody > tr > td {
+    text-align: center; /* จัดแนวข้อความในเซลล์ */
+  }

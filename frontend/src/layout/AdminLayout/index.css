@@ -1,0 +1,124 @@
+/* สไตล์สำหรับ Sidebar */
+.custom-sider {
+  background: #1b0ba7 !important;
+  width: 15vw !important; /* กำหนดความกว้างของ Sidebar */
+  height: 100vh !important; /* เต็มความสูงของหน้าจอ */
+  border-right: 3px solid #007bff; /* เส้นขอบขวา */
+  position: fixed !important; /* Fix Sidebar ในตำแหน่งคงที่ */
+  overflow: auto!important;
+}
+
+/* สไตล์สำหรับ Content */
+.custom-content {
+  background: #feffff !important; /* สีพื้นหลังขาว */
+  margin-left: 27vh !important; /* เว้นระยะห่างจาก Sidebar */ 
+  min-height: 100vh!important; /* ความสูงขั้นต่ำ */
+  width: calc(100vw - 13.2vw)!important; /* ความกว้างเท่ากับความกว้างของหน้าจอลบด้วยความกว้างของ Sidebar */
+  box-sizing: border-box!important; /* นำขนาดของ padding มาใช้ในการคำนวณขนาดรวม */
+  overflow: auto!important;
+}
+
+
+/* กำหนดพื้นหลังสำหรับ Menu */
+.ant-menu {
+  background: #1b0ba7 !important;
+}
+
+/* กำหนดสีของไอเทมใน Menu */
+.custom-menu .ant-menu-item {
+  color: #ffffff !important;
+  font-size: 16px !important;
+}
+
+/* กำหนดพื้นหลังของไอเทมที่ถูกเลือกใน Menu */
+.custom-menu .ant-menu-item-selected {
+  background: #007bff !important;
+  color: #ffffff !important;
+}
+
+/* กำหนดพื้นหลังของไอเทมใน Menu เมื่อวางเมาส์ */
+.custom-menu .ant-menu-item:hover {
+  background: #00438b !important;
+  color: #ffffff !important;
+}
+
+/* สไตล์สำหรับ SubMenu */
+.custom-menu .ant-menu-submenu-title {
+  color: #ffffff !important; /* สีของตัวอักษรใน SubMenu */
+  font-size: 16px !important; /* ขนาดตัวอักษร */
+  background: #1b0ba7 !important; /* สีพื้นหลังของ SubMenu title */
+}
+
+/* สไตล์สำหรับ SubMenu */
+.custom-menu-submenu {
+  background: #1b0ba7 !important; /* สีพื้นหลังของ SubMenu */
+}
+
+/* สไตล์สำหรับ SubMenu items */
+.custom-menu-submenu .ant-menu-item {
+  color: #ffffff !important; /* สีของข้อความใน dropdown */
+  font-size: 16px !important; /* ขนาดตัวอักษร */
+  padding: 8px 30px !important; /* ระยะห่างภายใน */
+  opacity: 0.5; /* ความจางของ item ที่ยังไม่ถูกเลือก */
+  transition: opacity 0.3s ease, background-color 0.3s ease; /* การเปลี่ยนแปลงความจางและสีพื้นหลัง */
+}
+
+/* สไตล์สำหรับ SubMenu items เมื่อวางเมาส์ */
+.custom-menu-submenu .ant-menu-item:hover {
+  background-color: #007bff !important; /* สีพื้นหลังของ dropdown item เมื่อวางเมาส์ */
+  color: #ffffff !important; /* สีของข้อความใน dropdown item เมื่อวางเมาส์ */
+  opacity: 1; /* ความจางเต็มที่เมื่อวางเมาส์ */
+  text-align: left; /* จัดแนวข้อความไปทางซ้าย */
+}
+
+/* กำหนดสีพื้นหลังของ SubMenu item ที่ถูกเลือก */
+.custom-menu-submenu .ant-menu-item-selected {
+  background-color: #007bff !important; /* สีพื้นหลังของ SubMenu item ที่เลือก */
+  color: #ffffff !important; /* สีข้อความ */
+  opacity: 1; /* ความจางเต็มที่เมื่อถูกเลือก */
+  text-align: left; /* จัดแนวข้อความไปทางซ้าย */
+}
+
+
+/* สไตล์สำหรับข้อมูลผู้ใช้ */
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.user-info-container img {
+  width: 100px !important; /* ปรับขนาดของภาพ */
+  height: 100px !important;
+  border-radius: 10% !important;
+  object-fit: cover;
+  margin-bottom: 0px !important;
+}
+
+.user-info-container .id {
+  font-size: 14px !important; /* ขนาดตัวอักษรสำหรับ ID */
+  color: #ffffff !important; /* สีของ ID */
+  margin-bottom: 5px !important; /* ระยะห่างระหว่าง ID และชื่อ */
+}
+
+.user-info-container .name {
+  font-size: 16px !important; /* ขนาดตัวอักษรสำหรับชื่อ */
+  color: #ffffff !important; /* สีของชื่อ */
+}
+/* เพิ่มสไตล์สำหรับปุ่มออกจากระบบ */
+.logout-container {
+  position: absolute;
+  bottom: 20px; /* ระยะห่างจากด้านล่าง */
+  width: 100%; /* ให้เต็มความกว้างของ Sider */
+  padding: 0 16px; /* เพิ่ม padding ซ้ายขวา */
+  display: flex;
+  justify-content: center; /* จัดกลาง */
+}
+
+.logout-button {
+  background-color: #ff4d4f !important; /* สีพื้นหลังที่แตกต่าง */
+  border-color: #ff4d4f !important; /* สีขอบที่แตกต่าง */
+  color: #ffffff !important; /* สีข้อความ */
+}
+
